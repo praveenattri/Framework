@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="2" total="6" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The Datasuit details are loading]]>
+    </line>
+    <line>
+      <![CDATA[The Datasuit configuration are done and loaded]]>
+    </line>
+    <line>
+      <![CDATA[The Web browser is going to start]]>
+    </line>
+    <line>
+      <![CDATA[The Web browser is going to start]]>
+    </line>
+    <line>
+      <![CDATA[Web browser is started successfully successsfully]]>
+    </line>
+    <line>
+      <![CDATA[The Method is completed and screenshoot system get started successsfully]]>
+    </line>
+    <line>
+      <![CDATA[The Method is completed and screenshoot is taken and attached to Extent report successsfully]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Login Page URL is same as Expected!!]]>
+    </line>
+    <line>
+      <![CDATA[The Method is completed and screenshoot system get started successsfully]]>
+    </line>
+    <line>
+      <![CDATA[The Method is completed and screenshoot is taken and attached to Extent report successsfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="48566" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:03:23Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="48566" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:03:23Z">
+      <class name="googletest.Testclass2">
+        <test-method status="FAIL" signature="StartUp1()[pri:0, instance:googletest.Testclass2@578486a3]" name="StartUp1" is-config="true" duration-ms="1" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:02:35Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Browserfiles.Baseclass.StartUp1(Baseclass.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The Web browser is going to start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartUp1 -->
+        <test-method status="SKIP" signature="Browseropen()[pri:0, instance:googletest.Testclass2@578486a3]" name="Browseropen" duration-ms="0" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:02:35Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Browserfiles.Baseclass.StartUp1(Baseclass.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browseropen -->
+        <test-method status="SKIP" signature="AfterMethod_Run(org.testng.ITestResult)[pri:0, instance:googletest.Testclass2@578486a3]" name="AfterMethod_Run" is-config="true" duration-ms="0" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod_Run -->
+        <test-method status="SKIP" signature="Clicking_On_Products()[pri:0, instance:googletest.Testclass2@578486a3]" name="Clicking_On_Products" duration-ms="0" started-at="2020-05-20T07:02:35Z" depends-on-methods="googletest.Testclass2.Browseropen" finished-at="2020-05-20T07:02:35Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Testclass2.Clicking_On_Products()[pri:0, instance:googletest.Testclass2@578486a3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Testclass2.Clicking_On_Products()[pri:0, instance:googletest.Testclass2@578486a3] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clicking_On_Products -->
+        <test-method status="SKIP" signature="StartUp2()[pri:0, instance:googletest.Testclass2@578486a3]" name="StartUp2" is-config="true" duration-ms="0" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp2 -->
+      </class> <!-- googletest.Testclass2 -->
+      <class name="googletest.Testclass1">
+        <test-method status="PASS" signature="DataSuit()[pri:0, instance:googletest.Testclass1@1f36e637]" name="DataSuit" is-config="true" duration-ms="1626" started-at="2020-05-20T07:02:33Z" finished-at="2020-05-20T07:02:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Datasuit details are loading]]>
+            </line>
+            <line>
+              <![CDATA[The Datasuit configuration are done and loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DataSuit -->
+        <test-method status="PASS" signature="StartUp1()[pri:0, instance:googletest.Testclass1@1f36e637]" name="StartUp1" is-config="true" duration-ms="38850" started-at="2020-05-20T07:02:35Z" finished-at="2020-05-20T07:03:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Web browser is going to start]]>
+            </line>
+            <line>
+              <![CDATA[Web browser is started successfully successsfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartUp1 -->
+        <test-method status="PASS" signature="Browseropen()[pri:0, instance:googletest.Testclass1@1f36e637]" name="Browseropen" duration-ms="203" started-at="2020-05-20T07:03:14Z" finished-at="2020-05-20T07:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browseropen -->
+        <test-method status="PASS" signature="AfterMethod_Run(org.testng.ITestResult)[pri:0, instance:googletest.Testclass1@1f36e637]" name="AfterMethod_Run" is-config="true" duration-ms="4479" started-at="2020-05-20T07:03:14Z" finished-at="2020-05-20T07:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Browseropen status=SUCCESS method=Testclass1.Browseropen()[pri:0, instance:googletest.Testclass1@1f36e637] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Method is completed and screenshoot system get started successsfully]]>
+            </line>
+            <line>
+              <![CDATA[The Method is completed and screenshoot is taken and attached to Extent report successsfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterMethod_Run -->
+        <test-method status="PASS" signature="Clicking_On_Products()[pri:0, instance:googletest.Testclass1@1f36e637]" name="Clicking_On_Products" duration-ms="4025" started-at="2020-05-20T07:03:18Z" depends-on-methods="googletest.Testclass1.Browseropen" finished-at="2020-05-20T07:03:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Assertion Passed]: Login Page URL is same as Expected!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Clicking_On_Products -->
+        <test-method status="PASS" signature="AfterMethod_Run(org.testng.ITestResult)[pri:0, instance:googletest.Testclass1@1f36e637]" name="AfterMethod_Run" is-config="true" duration-ms="949" started-at="2020-05-20T07:03:22Z" finished-at="2020-05-20T07:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Clicking_On_Products status=SUCCESS method=Testclass1.Clicking_On_Products()[pri:0, instance:googletest.Testclass1@1f36e637] output=[Assertion Passed]: Login Page URL is same as Expected!!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Method is completed and screenshoot system get started successsfully]]>
+            </line>
+            <line>
+              <![CDATA[The Method is completed and screenshoot is taken and attached to Extent report successsfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterMethod_Run -->
+        <test-method status="PASS" signature="StartUp2()[pri:0, instance:googletest.Testclass1@1f36e637]" name="StartUp2" is-config="true" duration-ms="0" started-at="2020-05-20T07:03:23Z" finished-at="2020-05-20T07:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp2 -->
+        <test-method status="FAIL" signature="AfterallRun(org.testng.ITestResult)[pri:0, instance:googletest.Testclass1@1f36e637]" name="AfterallRun" is-config="true" duration-ms="0" started-at="2020-05-20T07:03:24Z" finished-at="2020-05-20T07:03:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterSuite annotated AfterallRun.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterSuite annotated AfterallRun.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterallRun -->
+      </class> <!-- googletest.Testclass1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite2 -->
+</testng-results>

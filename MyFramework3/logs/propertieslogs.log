@@ -1,0 +1,19 @@
+[INFO ] 2019-06-11 18:33:32.175 [main] Googlesearchtest1 - Here the browser is launch
+[INFO ] 2019-06-11 18:33:32.343 [main] Googlesearchtest1 - User pass value in search box
+[INFO ] 2019-06-11 18:33:34.379 [main] Googlesearchtest1 - User clicked on the search button
+[INFO ] 2019-06-12 13:01:06.479 [main] Googlesearchtest1 - Here the browser is launch
+[TRACE] 2019-06-12 13:01:06.488 [main] Googlesearchtest1 - This is trace message
+[INFO ] 2019-06-12 13:01:06.747 [main] Googlesearchtest1 - User pass value in search box
+[INFO ] 2019-06-12 13:01:09.351 [main] Googlesearchtest1 - User clicked on the search button
+[INFO ] 2019-06-12 13:05:54.435 [main] Googlesearchtest1 - Here the browser is launch
+[TRACE] 2019-06-12 13:05:54.439 [main] Googlesearchtest1 - This is trace message
+[INFO ] 2019-06-12 13:05:54.606 [main] Googlesearchtest1 - User pass value in search box
+[INFO ] 2019-06-12 13:05:56.472 [main] Googlesearchtest1 - User clicked on the search button
+[INFO ] 2019-06-12 13:10:17.383 [main] Googlesearchtest1 - Here the browser is launch
+[TRACE] 2019-06-12 13:10:17.387 [main] Googlesearchtest1 - This is trace message
+[INFO ] 2019-06-12 13:10:17.560 [main] Googlesearchtest1 - User pass value in search box
+[INFO ] 2019-06-12 13:10:19.109 [main] Googlesearchtest1 - User clicked on the search button
+[INFO ] 2019-06-12 13:12:01.737 [main] Googlesearchtest1 - Here the browser is launch
+[TRACE] 2019-06-12 13:12:01.741 [main] Googlesearchtest1 - This is trace message
+[INFO ] 2019-06-12 13:12:01.991 [main] Googlesearchtest1 - User pass value in search box
+[INFO ] 2019-06-12 13:12:03.763 [main] Googlesearchtest1 - User clicked on the search button
