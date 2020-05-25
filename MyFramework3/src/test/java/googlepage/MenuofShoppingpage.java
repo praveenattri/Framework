@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class MenuofShoppingpage {
 
 	public WebDriver driver;
+	//New commit
 
 	public MenuofShoppingpage(WebDriver driverI)
 	{
